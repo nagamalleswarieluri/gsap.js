@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            background-color: blueviolet;
+            display: flex;
+            justify-content: space-between;
+            
+           
+        }
+        .child1{
+            
+            display: flex;
+            gap: 10px; 
+            align-items: center;
+            
+            }
+
+        
+        .child2>h1{
+            scale:1
+
+        }
+        .child2{
+            height: 100vh;
+            width: 100%;
+            background-color: brown;
+            align-items: center;
+            justify-content:center;
+            display: flex;
+            
+           
+        }
+
+        .main{
+            height: 100vh;
+            width: 100%;
+            background-color: cornflowerblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .child3{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            background-color:darkgreen;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .child3>img{
+            height: 30vh;
+            width: 30%;
+        }
+        .child3>p{
+            height: 30vh;
+            width: 30%;
+            background-color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="parent">
+        <h1>Welcome</h1>
+     <nav class="child1">
+        <p>home</p>
+        <p>about</p>
+        <p>contact</p>
+        <p>services</p>
+    
+     </nav>
+     </nav>
+     <section class="child2">
+        <h1>GSAP..... ANIMATIONS</h1>
+     </section>
+     <section class="main">
+        <h1>Flowers!!</h1>
+     </section>
+     
+    <section class="child3">
+            <img src="https://images.pexels.com/photos/35646/pexels-photo.jpg?cs=srgb&dl=garden-flower-close-up-35646.jpg&fm=jpg" alt="">
+            <p> The rose is known as the "king of flowers" 👑 and is loved by everyone for its sweet fragrance and vibrant colours! 🌸 Whether it's red, pink, yellow, or white, each colour of the rose has its own special </p>
+    </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./68r.js"></script>
+
+    
+
+     
+</body>
+</html>
